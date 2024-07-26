@@ -1,0 +1,252 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 20px;
+    background-color: black;
+    margin: 0;
+}
+
+.heading {
+    color: #388c0b;
+    font-size: 22px;
+    padding: 6px 0;
+}
+
+
+.main-controller {
+    display: flex;
+    gap: 100px;
+    margin-top: -98px;
+    margin-left: 863px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700 !important;
+}
+
+.home-lan{
+    color: #d4a750;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.anmie{
+    height: 585px;
+    width: 100%;
+    position: relative;
+    top: 74px;
+     animation-name: animate-me;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes animate-me{
+   0%{width: 100%}
+   50%{width: 105%}
+   100%{width: 100%}
+}
+
+p{
+    width: 560px;
+    position: relative;
+    left: 615px;
+    bottom: 323px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.25rem !important;
+} */
+
+
+:root {
+    --main-color: #d4a750;
+    --sec-color: #ffffff;
+    --third-color: #000000;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Tajawal", sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  nav a {
+    color: var(--sec-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .home-lan{
+    color: var(--main-color);
+  }
+  
+  nav {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  
+  nav i {
+    padding-left: 4px;
+    vertical-align: 1.1px;
+  }
+  
+  .tools {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    background-color: var(--third-color);
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 4.5rem;
+  }
+  
+  .hero {
+    min-width: 100%;
+    overflow: hidden;
+    background: url("../assets/images/2.jpg") center center;
+    background-size: 100% 100%;
+    position: relative;
+    min-height: 100vh;
+    animation-name: zoom;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes zoom {
+    0% {
+      background-size: 100% 100%;
+    }
+    100% {
+      background-size: 150% 150%;
+    }
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+  }
+  
+  .box-text {
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: auto;
+    color: var(--sec-color);
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+  }
+  
+  .box-text h2 {
+    font-size: 63px;
+  }
+  
+  .box-text p {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  
+  .iframe .container {
+    padding: 7% 0;
+  }
+  
+  .iframe iframe {
+    width: 50%; 
+    height: 400px;
+  }
+  
+  .iframe p {
+    color: #111214;
+    font-size: larger;
+    line-height: 1.8rem; 
+    width: 50%;
+    padding: 4% 2%;
+    opacity: 1;
+  }
+  
+  .services {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+  }
+
+  .services h2{
+    font-size: x-large;
+    margin-left: 695px;
+  }
+  
+  .line {
+    width: 90px;
+    margin: 0rem 44.5rem;
+    border: 1px solid #000000;
+  }
+  
+  .card {
+    width: 32%;
+    margin-top: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .services-text {
+    padding: 1.5rem;
+    padding-top: 0.8rem;
+  }
+  
+  .services-text h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: var(--main-color);
+    padding-bottom: 1rem;
+  }
+  
+  .services-text p {
+    text-align: justify;
+    font-size: 1.25rem;
+  }
+  
+  .services .container:last-child {
+    justify-content: center;
+    gap: 30px;
+  }
+  
+

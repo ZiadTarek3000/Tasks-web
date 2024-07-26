@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: black;
+    margin: 0;
+}
+
+.heading {
+    color: #388c0b;
+    font-size: 22px;
+    padding: 6px 0;
+}
+
+.heading span {
+    color: #fff;
+}
+
+.buy-now {
+    font-size: 16px;
+    padding: 6px 24px;
+    color: #fff;
+    background-color: #388c0b;
+    border-radius: 2px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.secound-header-section {
+    width: 84%;
+    margin: 50px auto;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.secound-header-section nav {
+    font-size: 16px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.main-controller {
+    display: flex;
+    gap: 100px;
+}
+
+.links a, .links button {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+
+.home-btn {
+    padding: 13px 26px;
+    border-radius: 27px;
+    background: none;
+    border: 2px solid #d3d3d3;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.request-demo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.circle {
+    cursor: pointer;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 6px;
+}
+
+.request-demo-btn {
+    padding: 12px 23px;
+    border-radius: 42px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
